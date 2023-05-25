@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JStarMap" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/redAccent</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorAccent</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
